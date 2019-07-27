@@ -27,8 +27,10 @@ public class ProgramJsonCreator {
 		Boolean titleLine = true;
 		List<Programa> programaList = new ArrayList<Programa>();
 		while ((str = in.readLine()) != null) {
-			if (!titleLine)
+			if (!titleLine) {
+				str = str.replace("'", "$");
 				programaList.add(getProgramaMapping(str));
+			}
 			titleLine = false;
 		    System.out.println(str);
 		}
