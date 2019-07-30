@@ -12,8 +12,8 @@ import org.codehaus.jackson.map.ObjectMapper;
 
 public class CoordenadasJsonCreator {
 
-	private static String FILE_PATH = "C:\\Users\\dbenito\\Desktop\\F\\santa\\";
-	private static String READ_FILE = "Coordenadas.tsv";
+	private static String FILE_PATH = "C:\\Users\\dbenito\\Desktop\\F\\lastras\\";
+	private static String READ_FILE = "coordenadas.tsv";
 	private static String WRITE_FILE = "coordenadas.json";
 
 	public static void main(String[] args) throws IOException {
